@@ -29,7 +29,7 @@ import { Register } from './pages/register/register';
 import { Shop } from './pages/shop/shop';
 import { Wishlist } from './pages/wishlist/wishlist';
 import { Footer } from './pages/footer/footer';
-import { RouterLink, RouterOutlet } from '@angular/router';
+import {RouterOutlet } from '@angular/router';
 
 @Component({
   imports: [Navbar, Home,About,Account,Cart,Category,Checkout,Contact,Faq,Login,Orders,Product,Register,Shop,Wishlist,Footer,RouterOutlet],

@@ -7,23 +7,23 @@ import { Contact } from './pages/contact/contact';
 
 export const routes: Routes = [
     {
-        path: '/',
+        path: '',
         component:Home
     },
     {
-        path: '/about',
+        path: 'about',
         component:About
     },
     {
-        path: '/shop',
+        path: 'shop',
         component:Shop
     },
     {
-        path: '/category',
+        path: 'category',
         component:Category
     },
     {
-        path: '/contact',
+        path: 'contact',
         component:Contact
     },
 ];
